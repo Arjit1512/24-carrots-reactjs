@@ -1,0 +1,418 @@
+@import url(https://db.onlinewebfonts.com/c/2167e76f00e569cc11b3665679996380?family=Futura-Light);
+body{
+  font-family: "Futura-light", sans-serif;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+/*NAVBAR SECTION*/
+span{
+    background-color:brown;
+    border-radius: 30px;
+    padding: 10px 20px 10px 25px;
+    font-family: "futura-pt", sans-serif;
+    font-size: 14px;
+    width: fit-content;
+    height: max-content;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    bottom: 1.5vh;
+}
+a{
+  cursor: pointer;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3%;
+  padding-left: 15%;
+  padding-right: 10%;
+  font-weight: 500;
+  font-size: small;
+}
+.navbar h2{
+  padding-top: 0%;
+  position: relative;
+  bottom: 3vh;
+}
+
+.video-section {
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-section h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 1;
+  font-family: "F37 Caslon", serif;
+  font-weight: lighter;
+  font-size: 6rem;
+}
+
+/*PART-2 SECTION*/
+
+#part-2{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 0%;
+  height: 70%;
+}
+.p2.part-1{
+  width: 50%;
+  text-align: center;
+}
+.big-text{
+  font-family: "F37 Caslon", serif;
+  font-weight: lighter;
+  font-size: 6rem;
+}
+.p2.part-1 p{
+  font-size: 20px;
+  line-height: 140%;
+  color: #1A4122;
+  font-size: 1rem;
+  padding-bottom: 3%;
+}
+.p2.part-1 h6{
+  padding-top: 5%;
+}
+.p2.part-2 img{
+  height: 900px;
+  text-align: center;
+  padding-top: 5%;
+  width:100%;
+  border-radius: 25% 0% 0% 0%;
+  position: relative;
+  right:5%;
+}
+
+/*PART-3 SECTION*/
+
+#part-3{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2% 0%;
+  height: 70%;
+}
+.p3.part-1{
+  width: 40%;
+  text-align: center;
+}
+.big-text{
+  font-family: "F37 Caslon", serif;
+  font-weight: lighter;
+  font-size: 6rem;
+}
+.p2.part-1 p{
+  font-size: 20px;
+  line-height: 140%;
+  color: #1A4122;
+  font-size: 1rem;
+  padding-bottom: 3%;
+}
+.p2.part-1 h6{
+  padding-top: 5%;
+}
+
+.p3-img{
+  width:80%;
+  border-radius: 25% 25% 0% 0%;
+  position: relative;
+  left: 15%;
+}
+.p3.part-2{
+  width:40%;
+  position: relative;
+  right:10%;
+} 
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.flex-col h6{
+  color: gray;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.col2{
+  position: relative;
+  left:25%;
+  line-height: 140%;
+}
+.col2 p{
+  color: gray;
+  font-weight: 100;
+  padding-bottom: 5%;
+}
+
+/*PART-4 */
+
+#part-4 {
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+}
+
+#part-4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle{
+  height:550px;
+  width:550px;
+  border-radius: 100%;
+  background-color: white;
+  position: relative;
+  left:33%;
+  bottom:25vh;
+  text-align: center;
+}
+.circle h2{
+  font-family: "F37 Caslon", serif;
+  font-weight: lighter;
+  font-size: 4rem;
+}
+.circle p{
+  color: gray;
+  font-weight: 100;
+  padding-bottom: 5%;
+  font-size: 0.8rem;
+  line-height: 140%;
+}
+.text-circle{
+  position: relative;
+  top:10%;
+}
+
+#part-5{
+  width: 90%;
+  padding-left: 8.8%;
+  margin-bottom: 3%;
+  position: relative;
+  bottom: 15vh;
+}
+
+/*PART-6*/
+#part-6{
+  text-align: center;
+  color: #E1F0DA;
+  position: relative;
+  bottom:10vh;
+}
+#part-6 h2{
+  font-family: "F37 Caslon", serif;
+  font-weight: lighter;
+  font-size: 6rem;
+  margin-bottom: 2%;
+  color: #1A4122FF;
+}
+#part-6 p{
+  color: gray;
+  font-weight: 100;
+  padding-bottom: 5%;
+  font-size: 1rem;
+  line-height: 140%;
+  color: #1A4122FF;
+}
+
+
+#video-container {
+  width: 70%; 
+  overflow: hidden;
+  position: relative;
+  left: 15%;
+  height:800px;
+  overflow-x: hidden;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+}
+#part-6 p{
+  margin-bottom: -1%;
+}
+#part-6 span{
+  background-color: #C15627;
+}
+
+/*PART-7*/
+#part-7{
+  padding-top: 6%;
+  height:800px;
+}
+
+#part-7 h4{
+    font-family: "F37 Caslon", serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #1A4122;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    position: relative;
+    z-index: 2;
+}
+#part-7 p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 180%;
+    color: gray;
+    margin-bottom: 6%;
+}
+#part-7 span{
+  background-color: transparent;
+  color: brown;
+  border: 0.5px solid brown;
+}
+
+#part-7 .flex-col{
+  position: relative;
+  left:15%;
+  top:15vh;
+  width:30%;
+}
+
+.flex-col.col22{
+  padding-top: 2%;
+}
+.p7-img{
+  position: relative;
+  left:78%;
+  bottom:75vh;
+  height:100vh;
+}
+.total-div{
+  position: relative;
+  bottom:175vh;
+  left:58%;
+}
+.col4{
+  padding-top:1%;
+}
+
+/*PART-8*/
+#part-8{
+  background-color: #C15627;
+  color: #FFF;
+  padding: 0 0 40px;
+}
+#part-8 .flex-col{
+  padding-left: 10%;
+  position: relative;
+}
+.col-end{
+  top:80px;
+}
+#part-8 h4{
+  font-family: "F37 Caslon", serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  position: relative;
+}
+#part-8 p{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 180%;
+  color: white;
+  margin-bottom: 6%;
+}
+.spam1{
+  background-color: white;
+  color: black;
+}
+.s1{
+  padding-right:180px;
+}
+.spam2{
+  background-color: brown;
+  color: white;
+  position: relative;
+  left:3%;
+}
+.col-img{
+  width:40%;
+  position: relative;
+  top:20px;
+}
+
+/*FOOTER SECTION*/
+.border-green{
+  height:2px;
+  width:105%;
+  background-color: #1A4122;
+  position: relative;
+  top:5vh;
+}
+.row-footer{
+  width: 90%;
+  padding-left:5%;
+  padding-top: 2%;
+  justify-content: space-between;
+}
+footer{
+  padding-bottom: 1%;
+  background-color: #E9E4E0;
+}
+
+footer h6.gh6{
+  color: #1A4122;
+  font-size: 1rem;
+}
+
+footer p{
+  color: gray;
+}
+.copy{
+  font-size: 0.8rem;
+  padding-top: 3%;
+  padding-left: 5%;
+}
+.gh5{
+  font-size: 0.8rem;
+  color: #1A4122;
+  padding-top: 5%;
+  margin-bottom: 0;
+}
+.ghh{
+  width:90%;
+  position: relative;
+  left:5%;
+}
+.g1{
+  position: relative;
+  top:1vh;
+}
