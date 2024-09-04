@@ -16,7 +16,6 @@ const Home = () => {
                     <span><a className='last-term'>GET IN TOUCH</a></span>
                 </div>
 
-
                 <div class="video-section">
                 <video autoPlay muted loop id="myVideo">
                     <source src="https://24carrots.com/wp-content/video/24carrtos-home-banner.mp4" type="video/mp4" />
