@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/24-carrots-reactjs/static/css/main.f469db81.css",
+    "main.js": "/24-carrots-reactjs/static/js/main.8e793cf3.js",
+    "static/media/slick.svg": "/24-carrots-reactjs/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/24-carrots-reactjs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/24-carrots-reactjs/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/24-carrots-reactjs/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/24-carrots-reactjs/index.html",
+    "main.f469db81.css.map": "/24-carrots-reactjs/static/css/main.f469db81.css.map",
+    "main.8e793cf3.js.map": "/24-carrots-reactjs/static/js/main.8e793cf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f469db81.css",
+    "static/js/main.8e793cf3.js"
+  ]
+}
